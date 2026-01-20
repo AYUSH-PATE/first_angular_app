@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #4e73df;
+    --dark-bg: #1a1c23;
+    --light-bg: #f8f9fc;
+    --white: #ffffff;
+    --text-main: #333;
+    --text-muted: #888;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Area */
+.main-container {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+}
