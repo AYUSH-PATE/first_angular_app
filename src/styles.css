@@ -15,8 +15,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Sidebar Styling */
+.sidebar {
+    width: 260px;
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    color: var(--primary);
+}
+
 /* Main Area */
 .main-container {
     margin-left: 260px;
     width: calc(100% - 260px);
 }
+
