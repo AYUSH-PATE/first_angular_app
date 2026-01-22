@@ -56,9 +56,6 @@ import {
   ViewContainerRef,
   ViewEncapsulation,
   XSS_SECURITY_URL,
-  __objRest,
-  __spreadProps,
-  __spreadValues,
   _global,
   _sanitizeHtml,
   _sanitizeUrl,
@@ -117,7 +114,12 @@ import {
   ɵɵinject,
   ɵɵinjectAttribute,
   ɵɵstyleProp
-} from "./chunk-UHEQVDSS.js";
+} from "./chunk-LQ2S56N7.js";
+import {
+  __objRest,
+  __spreadProps,
+  __spreadValues
+} from "./chunk-4FRP4S3T.js";
 
 // node_modules/@angular/common/fesm2022/_platform_location-chunk.mjs
 var _DOM = null;
@@ -8468,4 +8470,4 @@ export {
   provideClientHydration,
   VERSION2 as VERSION
 };
-//# sourceMappingURL=chunk-KBKLZTRE.js.map
+//# sourceMappingURL=chunk-R5LRNDHH.js.map

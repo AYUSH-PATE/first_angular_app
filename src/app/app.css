@@ -1,44 +1,4 @@
-header {
-    background: var(--white);
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
 
-.search-bar {
-    background: #f1f1f1;
-    padding: 8px 15px;
-    border-radius: 20px;
-}
 
-.search-bar input {
-    border: none;
-    background: transparent;
-    outline: none;
-    margin-left: 10px;
-}
 
-nav ul {
-    list-style: none;
-}
 
-nav ul li {
-    padding: 15px;
-    margin-bottom: 5px;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-nav ul li.active, nav ul li:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-nav ul li a {
-    color: #ccc;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
